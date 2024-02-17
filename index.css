@@ -1,0 +1,180 @@
+body {
+  background-color: #000;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* designing header bar */
+
+/* .super-div {
+  padding:10px;
+  border: 1px solid white;
+} */
+/* .thirteen-div {
+  border: 1px solid red;
+  padding:20px;
+} */
+
+.first-thirteen-div {
+  background-image: url("./assests/background1.jpg");
+  background-size: 100%;
+  /* opacity:; */
+}
+.header {
+  margin-top: 10px;
+}
+.header-div {
+  /* border:1px solid greenyellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.header-div-item-1 {
+  width: 17%;
+}
+
+#netflix-logo {
+  width: 80%;
+  height: 80%;
+}
+
+.header-div-item-2 {
+  /* flex: 60%; */
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.language-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 1px solid #f0f8ff;
+  background-color: #615e5e;
+  border-radius: 5px;
+  width: 30%;
+  /* opacity: 0.5; */
+}
+#language-logo {
+  display: inline;
+  width: 15%;
+  height: 15%;
+  border-radius: 15px;
+}
+
+#select-lang {
+  background: none;
+  color: inherit;
+  border: none;
+  font-weight: bold;
+}
+.sign-in-div {
+  margin-left: 15px;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: rgb(229, 9, 20);
+}
+#sign-in-button{
+  color: inherit;
+  border: none;
+  background: none;
+  font-weight: bold;
+}
+
+#sign-in-button:hover, #email-button:hover{
+    cursor:pointer;
+}
+
+/* designing first content div */
+
+.first-content-div{
+    width:60%;
+    margin: auto;
+    text-align: center;
+    padding: 200px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.big-para{
+    font-size: 45px;
+    font-weight: 1000;
+    margin:10px;
+}
+.email-address-div{
+    margin-top:5px;
+}
+#email-input{
+    padding:12px;
+    border-radius: 5px;
+    border:1px solid aliceblue;
+    color:white;
+    background: none;
+    width:40%;
+    font-size: 22px;
+}
+#email-button{
+    background-color: rgb(229, 9, 20);
+    color:inherit;
+    padding:12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+/* designing even empty div */
+.even-empty-div{
+    padding:4px;
+    background-color: rgb(35,35,35);
+    /* margin:0px; */
+}
+
+/* designing third main div */
+
+.common-flex-div{
+    display: flex;
+    width:80%;
+    margin:auto;
+    padding:50px;
+    padding-bottom: 50px;
+}
+.common-flex-div-child-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: left;
+}
+.second-big-para{
+    font-size: 26px;
+}
+
+#tv1{
+    width:90%;
+    height:100%;
+}
+
+/* designing footer */
+.footer-div{
+    width:80%;
+    margin:auto;
+}
+.footer-flex-div{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.footer-div-flex-items{
+    display: flex;
+    flex-direction: column;
+    margin-right:80px;
+    padding:20px 0px 20px 0px;
+}
+.links{
+    padding:5px;
+    color:aliceblue;
+    margin-right:70px;
+}
